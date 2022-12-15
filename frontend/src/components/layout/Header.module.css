@@ -1,0 +1,88 @@
+.HeaderMain {
+    color: firebrick;
+    
+    }
+    
+    .HeaderLogo {
+    color: blue;
+    height: 100%;
+    width: 10%;
+    }
+    .HeaderLeft {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .HeaderLeft >img {
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+        border-radius: 40px;
+    }
+    .HeaderLeft >h2 {
+       font-size: 20px;
+       color:cadetblue;
+       
+    }
+    .HeaderCenter {
+        top:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .HeaderLists{
+       
+        display: flex;
+        top: 10px;
+        justify-content: start;
+        align-items: center;
+    
+    }
+    .HeaderLists >li{
+        
+        height: 10px;
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        margin-left: 16px;
+        
+    
+    }
+    .HeaderCenterMenu {
+         width: 100%;
+         height: 100%;
+         padding: 10px;
+    
+    
+    }
+    .HeaderCenterMenu> button {
+        padding: 10px;
+        background-color: white;
+        border-radius: 100px;
+        
+    
+    }
+    .DropdownHeader{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        min-width: 220px;
+        min-height: 200px;
+        float: left;
+        background-color: grey;
+        border-radius: 20px;
+        
+    
+    }
+    .HeaderCenterMenu:hover > .DropdownHeader {
+        display: block;
+    }
+    .DropdownHeader >a{
+        text-decoration: magenta;
+        padding: 10px;
+        font-size: 20px;
+        display: flex;
+    
+    }
